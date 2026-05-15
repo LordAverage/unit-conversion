@@ -43,6 +43,7 @@ body {
     background: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
     
     font-family: "Inter", sans-serif;
     font-size: 13px;
