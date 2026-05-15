@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+#input-container {
+    padding: 10px 0px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background: #6943FF;
+}
+
+#input-container h1 {
+    font-size: 24px;
+    color: white;
+}
+
+#input-container input[type="text"] {
+    margin-top: 10px;
+    padding: 5px 15px;
+    field-sizing: content;
+    min-width: 60px;
+    
+    background: none;
+    border: solid 2px #B295FF;
+    border-radius: 5px;
+    
+    font-family: "Inter", sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+
+#input-container button {
+    margin: 20px 0px 15px 0px;
+    padding: 10px 24px;
+    
+    background: white;
+    border: none;
+    border-radius: 5px;
+    
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+}
+
+#result-container {
+    padding: 30px 20px;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    background: #1F2937;
+}
+
+.measuring-unit {
+    padding: 5px 0px;
+    
+    background: #273549;
+}
+
+.measuring-unit h2 {
+    color: #CCC1FF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.measuring-unit h4 {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
